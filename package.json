@@ -1,0 +1,21 @@
+{
+    "name": "auto-media-css",
+    "publisher": "zhanglu",
+    "displayName": "Auto Media Css",
+    "description": "自动生成媒体查询模板",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.54.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}

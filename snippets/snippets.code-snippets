@@ -1,0 +1,15 @@
+{
+  "auto media css": {
+    "scope": "scss, sass, css, less",
+    "prefix": "media",
+    "body": [
+      "@media screen and (max-width: 720px) {",
+      "}",
+      "\n@media screen and (min-width: 721px) and (max-width: 1024px) {",
+      "}",
+      "\n@media screen and (min-width: 1025px) {",
+      "}"
+    ],
+    "description": "Log output to console"
+  }
+}

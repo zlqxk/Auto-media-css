@@ -1,6 +1,6 @@
 {
-  "auto media css": {
-    "scope": "scss, sass, css, less",
+  "auto media less": {
+    "scope": "less",
     "prefix": "less media",
     "body": [
       "@pc-size: 1025px;",
@@ -17,6 +17,27 @@
       "@media screen and (min-width: @pc-size) {",
       "}"
     ],
-    "description": "Log output to console"
+    "description": "less"
+  },
+
+  "auto media scss": {
+    "scope": "scss, sass",
+    "prefix": "scss media",
+    "body": [
+      "\\$pc-size: 1025px;",
+      "\\$mobile-size: 767px;",
+      "\\$pad-size: 768px;",
+      "\n// common",
+      "\n// mobile",
+      "@media screen and (max-width: \\$mobile-size) {",
+      "}",
+      "\n// pad",
+      "@media screen and (min-width: \\$pad-size) {",
+      "}",
+      "\n// pc",
+      "@media screen and (min-width: \\$pc-size) {",
+      "}"
+    ],
+    "description": "scss"
   }
 }

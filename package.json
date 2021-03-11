@@ -3,7 +3,8 @@
     "publisher": "zhanglu",
     "displayName": "Auto Media Css",
     "description": "自动生成媒体查询模板",
-    "version": "1.0.4",
+    "icon": "./images.png",
+    "version": "1.0.5",
     "engines": {
         "vscode": "^1.36.1"
     },

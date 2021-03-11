@@ -1,13 +1,20 @@
 {
   "auto media css": {
     "scope": "scss, sass, css, less",
-    "prefix": "media",
+    "prefix": "less media",
     "body": [
-      "@media screen and (max-width: 720px) {",
+      "@pc-size: 1025px;",
+      "@mobile-size: 767px;",
+      "@pad-size: 768px;",
+      "\n// common",
+      "\n// mobile",
+      "@media screen and (max-width: @mobile-size) {",
       "}",
-      "\n@media screen and (min-width: 721px) and (max-width: 1024px) {",
+      "\n// pad",
+      "@media screen and (min-width: @pad-size) {",
       "}",
-      "\n@media screen and (min-width: 1025px) {",
+      "\n// pc",
+      "@media screen and (min-width: @pc-size) {",
       "}"
     ],
     "description": "Log output to console"
